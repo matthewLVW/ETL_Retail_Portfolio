@@ -77,7 +77,8 @@ The pipeline is documented through diagrams:
 - Final outputs are analysis-ready and aligned with business reporting needs.  
 
 ---
-
+- **notebooks/**
+  - [`RetailEDASQL.ipynb`](notebooks/RetailEDASQL.ipynb): Full implementation of the ETL pipeline, including data cleaning, schema creation, and validation steps.
 ## Technology
 - Python (pandas, numpy) for data cleaning.  
 - SQLite for database creation.  
