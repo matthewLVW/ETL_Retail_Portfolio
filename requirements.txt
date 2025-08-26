@@ -1,0 +1,11 @@
+# Retail Store Sales — EDA, Cleaning, and SQLite Modeling
+
+Polished, portfolio-ready project that **loads a retail sales CSV**, performs **robust cleaning & validation**, and **models the data in a normalized SQLite database** with **checks, indexes, and views**. The repo includes a line-by-line-audited notebook and a production-style `src/etl.py` script for repeatable execution.
+
+## Highlights
+- Clear **EDA & cleaning** helpers (type coercion, date checks, arithmetic checks, discount inference).
+- **Normalized SQLite schema** with foreign keys, integrity **triggers**, **indexes**, and analysis **views**.
+- Step-by-step **staging → dimensions → facts** load, plus validation queries.
+- Portable paths (no OS-specific directories), reproducible **requirements.txt**, and a simple CI workflow.
+
+## Repo Structure
