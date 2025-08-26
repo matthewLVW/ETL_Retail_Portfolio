@@ -51,19 +51,23 @@ Cleaned data is loaded into a SQLite database structured as a star schema.
 
 The pipeline is documented through diagrams:
 
-1. **Staging → Dimensions**  
-   Raw rows cleaned into reusable lookup tables.  
-   ![Staging → Dimensions](docs/staging_dimensions.png)
+1. **Staging**  
+   Raw sales data standardized into transaction headers.  
+   ![Staging](docs/staging.png)
 
-2. **Facts**  
+2. **Dimensions**  
+   Reusable lookup tables for customers, categories, items, payment methods, and channels.  
+   ![Dimensions](docs/dimensions.png)
+
+3. **Facts**  
    Central transaction tables capture orders and items.  
    ![Facts](docs/facts.png)
 
-3. **Entity Relationship Diagram (ERD)**  
+4. **Entity Relationship Diagram (ERD)**  
    Complete schema with relationships across tables.  
    ![ERD](docs/erd.png)
 
-4. **Analytics Views**  
+5. **Analytics Views**  
    Reporting layers ready for BI tools.  
    ![Views](docs/views.png)
 
