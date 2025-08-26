@@ -1,5 +1,3 @@
-This project showcases a complete data pipeline, starting with messy retail transaction data and transforming it into a clean, validated, and analysis-ready relational database. It highlights skills in data cleaning (Python/pandas), schema design (SQLite), and clear communication of data lineage through professional diagrams. The result is a reproducible workflow that ensures accuracy and creates business-ready reporting tables and views.
-
 # Sales Data Cleaning and Database Project
 
 This project demonstrates an end-to-end ETL pipeline: cleaning retail transaction data, enforcing consistency checks, and structuring it into a relational database for analysis.
